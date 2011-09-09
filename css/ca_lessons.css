@@ -1,0 +1,5 @@
+/* CA Lesson CSS */
+  /* Template One */
+  #ca-lessons-template-one .views-field-view-node {float: right; margin-right: 10px;}
+  #ca-lessons-template-one .views-field-nothing {clear: both; margin-bottom: 10px; padding-bottom: 10px; border-bottom: 1px solid #D2D2D2;}
+  #ca-lessons-template-one .views-row-last .views-field-nothing {border: none;}
