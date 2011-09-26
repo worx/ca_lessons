@@ -51,7 +51,7 @@ function ca_lessons_views_default_views() {
         'button' => 'Override',
       ),
     ),
-    'field_ca_leasons_date_value' => array(
+    'field_ca_lessons_date_value' => array(
       'label' => '',
       'alter' => array(
         'alter_text' => 0,
@@ -90,12 +90,12 @@ function ca_lessons_views_default_views() {
         'fromto' => 'both',
       ),
       'exclude' => 0,
-      'id' => 'field_ca_leasons_date_value',
-      'table' => 'node_data_field_ca_leasons_date',
-      'field' => 'field_ca_leasons_date_value',
+      'id' => 'field_ca_lessons_date_value',
+      'table' => 'node_data_field_ca_lessons_date',
+      'field' => 'field_ca_lessons_date_value',
       'relationship' => 'none',
     ),
-    'field_ca_leasons_leason_document_fid' => array(
+    'field_ca_lessons_lesson_document_fid' => array(
       'label' => '',
       'alter' => array(
         'alter_text' => 0,
@@ -128,9 +128,9 @@ function ca_lessons_views_default_views() {
         'multiple_reversed' => FALSE,
       ),
       'exclude' => 0,
-      'id' => 'field_ca_leasons_leason_document_fid',
-      'table' => 'node_data_field_ca_leasons_leason_document',
-      'field' => 'field_ca_leasons_leason_document_fid',
+      'id' => 'field_ca_lessons_lesson_document_fid',
+      'table' => 'node_data_field_ca_lessons_lesson_document',
+      'field' => 'field_ca_lessons_lesson_document_fid',
       'relationship' => 'none',
     ),
     'teaser' => array(
@@ -272,12 +272,12 @@ function ca_lessons_views_default_views() {
         'button' => 'Override',
       ),
     ),
-    'field_ca_leasons_date_value' => array(
+    'field_ca_lessons_date_value' => array(
       'order' => 'ASC',
       'delta' => -1,
-      'id' => 'field_ca_leasons_date_value',
-      'table' => 'node_data_field_ca_leasons_date',
-      'field' => 'field_ca_leasons_date_value',
+      'id' => 'field_ca_lessons_date_value',
+      'table' => 'node_data_field_ca_lessons_date',
+      'field' => 'field_ca_lessons_date_value',
       'relationship' => 'none',
     ),
   ));
@@ -359,7 +359,7 @@ function ca_lessons_views_default_views() {
         'button' => 'Override',
       ),
     ),
-    'field_ca_leasons_date_value' => array(
+    'field_ca_lessons_date_value' => array(
       'label' => '',
       'alter' => array(
         'alter_text' => 0,
@@ -398,15 +398,15 @@ function ca_lessons_views_default_views() {
         'fromto' => 'both',
       ),
       'exclude' => 0,
-      'id' => 'field_ca_leasons_date_value',
-      'table' => 'node_data_field_ca_leasons_date',
-      'field' => 'field_ca_leasons_date_value',
+      'id' => 'field_ca_lessons_date_value',
+      'table' => 'node_data_field_ca_lessons_date',
+      'field' => 'field_ca_lessons_date_value',
       'override' => array(
         'button' => 'Use default',
       ),
       'relationship' => 'none',
     ),
-    'field_ca_leasons_leason_document_fid' => array(
+    'field_ca_lessons_lesson_document_fid' => array(
       'label' => '',
       'alter' => array(
         'alter_text' => 0,
@@ -439,9 +439,9 @@ function ca_lessons_views_default_views() {
         'multiple_reversed' => FALSE,
       ),
       'exclude' => 0,
-      'id' => 'field_ca_leasons_leason_document_fid',
-      'table' => 'node_data_field_ca_leasons_leason_document',
-      'field' => 'field_ca_leasons_leason_document_fid',
+      'id' => 'field_ca_lessons_lesson_document_fid',
+      'table' => 'node_data_field_ca_lessons_lesson_document',
+      'field' => 'field_ca_lessons_lesson_document_fid',
       'relationship' => 'none',
     ),
     'teaser' => array(
@@ -509,7 +509,7 @@ function ca_lessons_views_default_views() {
       'field' => 'tid',
       'relationship' => 'none',
     ),
-    'field_ca_leasons_test_form_nid' => array(
+    'field_ca_lessons_test_form_nid' => array(
       'label' => 'Test Form',
       'alter' => array(
         'alter_text' => 0,
@@ -542,15 +542,15 @@ function ca_lessons_views_default_views() {
         'multiple_reversed' => FALSE,
       ),
       'exclude' => 0,
-      'id' => 'field_ca_leasons_test_form_nid',
-      'table' => 'node_data_field_ca_leasons_test_form',
-      'field' => 'field_ca_leasons_test_form_nid',
+      'id' => 'field_ca_lessons_test_form_nid',
+      'table' => 'node_data_field_ca_lessons_test_form',
+      'field' => 'field_ca_lessons_test_form_nid',
       'override' => array(
         'button' => 'Use default',
       ),
       'relationship' => 'none',
     ),
-    'field_ca_leasons_test_document_fid' => array(
+    'field_ca_lessons_test_document_fid' => array(
       'label' => '',
       'alter' => array(
         'alter_text' => 0,
@@ -583,9 +583,9 @@ function ca_lessons_views_default_views() {
         'multiple_reversed' => FALSE,
       ),
       'exclude' => 0,
-      'id' => 'field_ca_leasons_test_document_fid',
-      'table' => 'node_data_field_ca_leasons_test_document',
-      'field' => 'field_ca_leasons_test_document_fid',
+      'id' => 'field_ca_lessons_test_document_fid',
+      'table' => 'node_data_field_ca_lessons_test_document',
+      'field' => 'field_ca_lessons_test_document_fid',
       'override' => array(
         'button' => 'Use default',
       ),
@@ -654,12 +654,12 @@ function ca_lessons_views_default_views() {
     ),
   ));
   $handler->override_option('sorts', array(
-    'field_ca_leasons_date_value' => array(
+    'field_ca_lessons_date_value' => array(
       'order' => 'ASC',
       'delta' => -1,
-      'id' => 'field_ca_leasons_date_value',
-      'table' => 'node_data_field_ca_leasons_date',
-      'field' => 'field_ca_leasons_date_value',
+      'id' => 'field_ca_lessons_date_value',
+      'table' => 'node_data_field_ca_lessons_date',
+      'field' => 'field_ca_lessons_date_value',
       'override' => array(
         'button' => 'Use default',
       ),
@@ -697,7 +697,7 @@ function ca_lessons_views_default_views() {
       'field' => 'type',
       'relationship' => 'none',
     ),
-    'field_ca_leasons_date_value' => array(
+    'field_ca_lessons_date_value' => array(
       'operator' => '<=',
       'value' => array(
         'value' => '2011-01-01 00:00:00',
@@ -713,7 +713,7 @@ function ca_lessons_views_default_views() {
         'label' => '',
       ),
       'date_fields' => array(
-        'node_data_field_ca_leasons_date.field_ca_leasons_date_value' => 'node_data_field_ca_leasons_date.field_ca_leasons_date_value',
+        'node_data_field_ca_lessons_date.field_ca_lessons_date_value' => 'node_data_field_ca_lessons_date.field_ca_lessons_date_value',
       ),
       'date_method' => 'AND',
       'granularity' => 'day',
@@ -721,15 +721,15 @@ function ca_lessons_views_default_views() {
       'default_date' => 'now',
       'default_to_date' => '',
       'year_range' => '-3:+3',
-      'id' => 'field_ca_leasons_date_value',
-      'table' => 'node_data_field_ca_leasons_date',
-      'field' => 'field_ca_leasons_date_value',
+      'id' => 'field_ca_lessons_date_value',
+      'table' => 'node_data_field_ca_lessons_date',
+      'field' => 'field_ca_lessons_date_value',
       'override' => array(
         'button' => 'Use default',
       ),
       'relationship' => 'none',
     ),
-    'field_ca_leasons_date_value2' => array(
+    'field_ca_lessons_date_value2' => array(
       'operator' => '>=',
       'value' => array(
         'value' => NULL,
@@ -745,7 +745,7 @@ function ca_lessons_views_default_views() {
         'label' => '',
       ),
       'date_fields' => array(
-        'node_data_field_ca_leasons_date.field_ca_leasons_date_value2' => 'node_data_field_ca_leasons_date.field_ca_leasons_date_value2',
+        'node_data_field_ca_lessons_date.field_ca_lessons_date_value2' => 'node_data_field_ca_lessons_date.field_ca_lessons_date_value2',
       ),
       'date_method' => 'AND',
       'granularity' => 'day',
@@ -753,9 +753,9 @@ function ca_lessons_views_default_views() {
       'default_date' => 'now',
       'default_to_date' => '',
       'year_range' => '-3:+3',
-      'id' => 'field_ca_leasons_date_value2',
-      'table' => 'node_data_field_ca_leasons_date',
-      'field' => 'field_ca_leasons_date_value2',
+      'id' => 'field_ca_lessons_date_value2',
+      'table' => 'node_data_field_ca_lessons_date',
+      'field' => 'field_ca_lessons_date_value2',
       'override' => array(
         'button' => 'Use default',
       ),
@@ -816,7 +816,7 @@ function ca_lessons_views_default_views() {
       'field' => 'type',
       'relationship' => 'none',
     ),
-    'field_ca_leasons_date_value' => array(
+    'field_ca_lessons_date_value' => array(
       'operator' => '>',
       'value' => array(
         'value' => NULL,
@@ -832,7 +832,7 @@ function ca_lessons_views_default_views() {
         'label' => '',
       ),
       'date_fields' => array(
-        'node_data_field_ca_leasons_date.field_ca_leasons_date_value' => 'node_data_field_ca_leasons_date.field_ca_leasons_date_value',
+        'node_data_field_ca_lessons_date.field_ca_lessons_date_value' => 'node_data_field_ca_lessons_date.field_ca_lessons_date_value',
       ),
       'date_method' => 'OR',
       'granularity' => 'day',
@@ -840,15 +840,15 @@ function ca_lessons_views_default_views() {
       'default_date' => 'now',
       'default_to_date' => '',
       'year_range' => '-3:+3',
-      'id' => 'field_ca_leasons_date_value',
-      'table' => 'node_data_field_ca_leasons_date',
-      'field' => 'field_ca_leasons_date_value',
+      'id' => 'field_ca_lessons_date_value',
+      'table' => 'node_data_field_ca_lessons_date',
+      'field' => 'field_ca_lessons_date_value',
       'override' => array(
         'button' => 'Use default',
       ),
       'relationship' => 'none',
     ),
-    'field_ca_leasons_date_value2' => array(
+    'field_ca_lessons_date_value2' => array(
       'operator' => '<',
       'value' => array(
         'value' => NULL,
@@ -864,7 +864,7 @@ function ca_lessons_views_default_views() {
         'label' => '',
       ),
       'date_fields' => array(
-        'node_data_field_ca_leasons_date.field_ca_leasons_date_value2' => 'node_data_field_ca_leasons_date.field_ca_leasons_date_value2',
+        'node_data_field_ca_lessons_date.field_ca_lessons_date_value2' => 'node_data_field_ca_lessons_date.field_ca_lessons_date_value2',
       ),
       'date_method' => 'OR',
       'granularity' => 'day',
@@ -872,9 +872,31 @@ function ca_lessons_views_default_views() {
       'default_date' => 'now',
       'default_to_date' => '',
       'year_range' => '-3:+3',
-      'id' => 'field_ca_leasons_date_value2',
-      'table' => 'node_data_field_ca_leasons_date',
-      'field' => 'field_ca_leasons_date_value2',
+      'id' => 'field_ca_lessons_date_value2',
+      'table' => 'node_data_field_ca_lessons_date',
+      'field' => 'field_ca_lessons_date_value2',
+      'override' => array(
+        'button' => 'Use default',
+      ),
+      'relationship' => 'none',
+    ),
+    'title' => array(
+      'operator' => 'contains',
+      'value' => '',
+      'group' => '0',
+      'exposed' => TRUE,
+      'expose' => array(
+        'use_operator' => 0,
+        'operator' => 'title_op',
+        'identifier' => 'title',
+        'label' => 'Title',
+        'optional' => 1,
+        'remember' => 0,
+      ),
+      'case' => 0,
+      'id' => 'title',
+      'table' => 'node',
+      'field' => 'title',
       'override' => array(
         'button' => 'Use default',
       ),
@@ -1069,40 +1091,26 @@ function ca_lessons_views_default_views() {
     'execution_type' => '1',
     'display_type' => '0',
     'hide_select_all' => 0,
-    'skip_confirmation' => 0,
     'display_result' => 1,
     'merge_single_action' => 1,
-    'selected_operations' => array(
-      'views_bulk_operations_delete_node_action' => 'views_bulk_operations_delete_node_action',
-      'node_publish_action' => 'node_publish_action',
-      'node_unpublish_action' => 'node_unpublish_action',
-      'node_assign_owner_action' => 0,
-      'node_mass_update:a27b9efabcd054685a549378b174ad11' => 0,
-      'system_message_action' => 0,
-      'views_bulk_operations_action' => 0,
-      'views_bulk_operations_script_action' => 0,
-      'node_make_sticky_action' => 0,
-      'node_make_unsticky_action' => 0,
-      'node_mass_update:c4d3b28efb86fd703619a50b74d43794' => 0,
-      'views_bulk_operations_fields_action' => 0,
-      'views_bulk_operations_taxonomy_action' => 0,
-      'views_bulk_operations_argument_selector_action' => 0,
-      'node_promote_action' => 0,
-      'node_mass_update:14de7d028b4bffdf2b4a266562ca18ac' => 0,
-      'node_mass_update:9c585624b9b3af0b4687d5f97f35e047' => 0,
-      'system_goto_action' => 0,
-      'node_unpromote_action' => 0,
-      'node_mass_update:8ce21b08bb8e773d10018b484fe4815e' => 0,
-      'node_save_action' => 0,
-      'system_send_email_action' => 0,
-      'node_mass_update:0ccad85c1ebe4c9ceada1aa64293b080' => 0,
-      'node_unpublish_by_keyword_action' => 0,
-      'pathauto_node_update_alias_multiple:620e193b20ba9caa374fea9ca0ad38f0' => 0,
-    ),
     'views_bulk_operations_fields_action' => array(
       'php_code' => 0,
       'display_fields' => array(
         '_all_' => '_all_',
+      ),
+    ),
+    'operations' => array(
+      'views_bulk_operations_delete_node_action' => array(
+        'selected' => TRUE,
+        'skip_confirmation' => 0,
+      ),
+      'node_publish_action' => array(
+        'selected' => TRUE,
+        'skip_confirmation' => 0,
+      ),
+      'node_unpublish_action' => array(
+        'selected' => TRUE,
+        'skip_confirmation' => 0,
       ),
     ),
   ));
@@ -1322,43 +1330,22 @@ function ca_lessons_views_default_views() {
     'execution_type' => '1',
     'display_type' => '0',
     'hide_select_all' => 0,
-    'skip_confirmation' => 0,
     'display_result' => 1,
     'merge_single_action' => 1,
-    'selected_operations' => array(
-      'node_mass_update:9c585624b9b3af0b4687d5f97f35e047' => 'node_mass_update:9c585624b9b3af0b4687d5f97f35e047',
-      'node_mass_update:0ccad85c1ebe4c9ceada1aa64293b080' => 'node_mass_update:0ccad85c1ebe4c9ceada1aa64293b080',
-      'node_assign_owner_action' => 0,
-      'views_bulk_operations_delete_node_action' => 0,
-      'node_mass_update:a27b9efabcd054685a549378b174ad11' => 0,
-      'system_message_action' => 0,
-      'views_bulk_operations_action' => 0,
-      'views_bulk_operations_script_action' => 0,
-      'imagecache_flush_action' => 0,
-      'imagecache_generate_all_action' => 0,
-      'imagecache_generate_action' => 0,
-      'node_make_sticky_action' => 0,
-      'node_make_unsticky_action' => 0,
-      'node_mass_update:c4d3b28efb86fd703619a50b74d43794' => 0,
-      'views_bulk_operations_fields_action' => 0,
-      'views_bulk_operations_taxonomy_action' => 0,
-      'views_bulk_operations_argument_selector_action' => 0,
-      'node_promote_action' => 0,
-      'node_mass_update:14de7d028b4bffdf2b4a266562ca18ac' => 0,
-      'node_publish_action' => 0,
-      'system_goto_action' => 0,
-      'node_unpromote_action' => 0,
-      'node_mass_update:8ce21b08bb8e773d10018b484fe4815e' => 0,
-      'node_save_action' => 0,
-      'system_send_email_action' => 0,
-      'node_unpublish_action' => 0,
-      'node_unpublish_by_keyword_action' => 0,
-      'pathauto_node_update_alias_multiple:620e193b20ba9caa374fea9ca0ad38f0' => 0,
-    ),
     'views_bulk_operations_fields_action' => array(
       'php_code' => 0,
       'display_fields' => array(
         '_all_' => '_all_',
+      ),
+    ),
+    'operations' => array(
+      'node_mass_update-9c585624b9b3af0b4687d5f97f35e047' => array(
+        'selected' => TRUE,
+        'skip_confirmation' => 0,
+      ),
+      'node_mass_update-0ccad85c1ebe4c9ceada1aa64293b080' => array(
+        'selected' => TRUE,
+        'skip_confirmation' => 0,
       ),
     ),
   ));
@@ -1638,28 +1625,25 @@ function ca_lessons_views_default_views() {
     'execution_type' => '1',
     'display_type' => '0',
     'hide_select_all' => 0,
-    'skip_confirmation' => 0,
     'display_result' => 1,
     'merge_single_action' => 1,
-    'selected_operations' => array(
-      'ca_lessons_add_lessons_admin_action' => 'ca_lessons_add_lessons_admin_action',
-      'ca_lessons_add_lessons_writer_action' => 'ca_lessons_add_lessons_writer_action',
-      'ca_lessons_remove_lessons_admin_action' => 'ca_lessons_remove_lessons_admin_action',
-      'ca_lessons_remove_lessons_writer_action' => 'ca_lessons_remove_lessons_writer_action',
-      'user_block_ip_action' => 0,
-      'user_block_user_action' => 0,
-      'user_user_operations_block' => 0,
-      'nodewords_admin_mass_update:3925bd6c9edcf332c87f461396305366' => 0,
-      'views_bulk_operations_delete_user_action' => 0,
-      'system_message_action' => 0,
-      'views_bulk_operations_action' => 0,
-      'views_bulk_operations_script_action' => 0,
-      'views_bulk_operations_user_roles_action' => 0,
-      'views_bulk_operations_argument_selector_action' => 0,
-      'system_goto_action' => 0,
-      'system_send_email_action' => 0,
-      'user_user_operations_unblock' => 0,
-      'pathauto_user_update_alias_multiple:620e193b20ba9caa374fea9ca0ad38f0' => 0,
+    'operations' => array(
+      'ca_lessons_add_lessons_admin_action' => array(
+        'selected' => TRUE,
+        'skip_confirmation' => 0,
+      ),
+      'ca_lessons_add_lessons_writer_action' => array(
+        'selected' => TRUE,
+        'skip_confirmation' => 0,
+      ),
+      'ca_lessons_remove_lessons_admin_action' => array(
+        'selected' => TRUE,
+        'skip_confirmation' => 0,
+      ),
+      'ca_lessons_remove_lessons_writer_action' => array(
+        'selected' => TRUE,
+        'skip_confirmation' => 0,
+      ),
     ),
   ));
   $handler = $view->new_display('panel_pane', 'Lessons Administrators Pane', 'panel_pane_1');

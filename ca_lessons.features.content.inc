@@ -6,9 +6,9 @@
 function ca_lessons_content_default_fields() {
   $fields = array();
 
-  // Exported field: field_ca_leasons_date
-  $fields['ca_lessons-field_ca_leasons_date'] = array(
-    'field_name' => 'field_ca_leasons_date',
+  // Exported field: field_ca_lessons_date
+  $fields['ca_lessons-field_ca_lessons_date'] = array(
+    'field_name' => 'field_ca_lessons_date',
     'type_name' => 'ca_lessons',
     'display_settings' => array(
       'weight' => '-4',
@@ -69,15 +69,15 @@ function ca_lessons_content_default_fields() {
     ),
   );
 
-  // Exported field: field_ca_leasons_leason_document
-  $fields['ca_lessons-field_ca_leasons_leason_document'] = array(
-    'field_name' => 'field_ca_leasons_leason_document',
+  // Exported field: field_ca_lessons_lesson_document
+  $fields['ca_lessons-field_ca_lessons_lesson_document'] = array(
+    'field_name' => 'field_ca_lessons_lesson_document',
     'type_name' => 'ca_lessons',
     'display_settings' => array(
       'weight' => '-3',
       'parent' => '',
       'label' => array(
-        'format' => 'above',
+        'format' => 'hidden',
       ),
       'teaser' => array(
         'format' => 'default',
@@ -104,14 +104,14 @@ function ca_lessons_content_default_fields() {
     'active' => '1',
     'list_field' => '0',
     'list_default' => 1,
-    'description_field' => '0',
+    'description_field' => '1',
     'widget' => array(
       'file_extensions' => 'txt pdf doc odt rtf',
       'file_path' => '',
       'progress_indicator' => 'bar',
       'max_filesize_per_file' => '',
       'max_filesize_per_node' => '',
-      'label' => 'Leason Document',
+      'label' => 'Lesson Document',
       'weight' => '-3',
       'description' => '',
       'type' => 'filefield_widget',
@@ -119,15 +119,15 @@ function ca_lessons_content_default_fields() {
     ),
   );
 
-  // Exported field: field_ca_leasons_test_document
-  $fields['ca_lessons-field_ca_leasons_test_document'] = array(
-    'field_name' => 'field_ca_leasons_test_document',
+  // Exported field: field_ca_lessons_test_document
+  $fields['ca_lessons-field_ca_lessons_test_document'] = array(
+    'field_name' => 'field_ca_lessons_test_document',
     'type_name' => 'ca_lessons',
     'display_settings' => array(
       'weight' => '1',
       'parent' => '',
       'label' => array(
-        'format' => 'above',
+        'format' => 'hidden',
       ),
       'teaser' => array(
         'format' => 'default',
@@ -154,7 +154,7 @@ function ca_lessons_content_default_fields() {
     'active' => '1',
     'list_field' => '0',
     'list_default' => 1,
-    'description_field' => '0',
+    'description_field' => '1',
     'widget' => array(
       'file_extensions' => 'txt pdf doc odt rtf',
       'file_path' => '',
@@ -169,15 +169,15 @@ function ca_lessons_content_default_fields() {
     ),
   );
 
-  // Exported field: field_ca_leasons_test_form
-  $fields['ca_lessons-field_ca_leasons_test_form'] = array(
-    'field_name' => 'field_ca_leasons_test_form',
+  // Exported field: field_ca_lessons_test_form
+  $fields['ca_lessons-field_ca_lessons_test_form'] = array(
+    'field_name' => 'field_ca_lessons_test_form',
     'type_name' => 'ca_lessons',
     'display_settings' => array(
       'weight' => 0,
       'parent' => '',
       'label' => array(
-        'format' => 'above',
+        'format' => 'hidden',
       ),
       'teaser' => array(
         'format' => 'default',
@@ -229,7 +229,7 @@ function ca_lessons_content_default_fields() {
   // Translatables
   // Included for use with string extractors like potx.
   t('Date');
-  t('Leason Document');
+  t('Lesson Document');
   t('Test Document');
   t('Test Form');
 
